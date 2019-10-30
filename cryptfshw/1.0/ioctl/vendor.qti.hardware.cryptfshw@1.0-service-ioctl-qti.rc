@@ -2,6 +2,4 @@ service vendor.cryptfshw-hal-1-0-ioctl-qti /vendor/bin/hw/vendor.qti.hardware.cr
     class early_hal
     user system
     group system
-    shutdown critical
-    ioprio be 2
     writepid /dev/cpuset/foreground/tasks

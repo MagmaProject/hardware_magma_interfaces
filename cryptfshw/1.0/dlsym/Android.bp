@@ -19,7 +19,7 @@ cc_binary {
     owner: "qti",
     product_variables: {
        magma: {
-            should_skip_waiting_for_qsee: {
+            should_wait_for_qsee: {
                 cflags: ["-DSKIP_WAITING_FOR_QSEE"],
             },
         },
